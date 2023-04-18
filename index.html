@@ -180,7 +180,7 @@
   <h3>Example of Flexbox Property with Code</h3>
   <p>To use the flexbox property on a parent element, we can add the following code to our CSS file:
   </p>
-  
+
   <code>
   .parent {
     display: flex;
@@ -189,6 +189,85 @@
     align-items: center;
   }
   </code>
+
+
+
+  <h3>Different Types of Flexbox Properties</h3>
+  <p>There are several flexbox properties, such as flex-direction, justify-content, align-items, and flex-wrap. These properties control the direction, alignment, and spacing of flex items within a flex container. </p>
+  <h3>Using Flexbox Property on a Parent Element</h3>
+  <p> To use flexbox on a parent element, set the display property to "flex". You can then use sub-properties like flex-direction, justify-content, align-items, and flex-wrap to control the layout and alignment of the child elements.</p>
+  <h3>Code Example for Flexbox Property</h3>
+  <p> Here's an example of how to use the flexbox property on a parent element:
+  <code>
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  </code>
+  This code sets the container element to use flexbox, arranges the child elements in a row, centers them horizontally, and centers them vertically. </p>
+  
+  <h3>CSS Grid Property</h3>
+  <p> CSS Grid is a layout system that allows for creating complex and responsive layouts with ease. It works by defining a grid of rows and columns, and then placing elements within that grid. </p>
+  <h3>Parent and Sub-Properties for CSS Grid Property</h3>
+  <p> To use the CSS Grid property, you need to set the display property of the parent element to "grid". You can then use sub-properties like grid-template-columns and grid-template-rows to define the size and number of columns and rows in the grid. </p>
+  <h3>Difference Between display: flex and display: grid</h3>
+  <p>The main difference between display: flex and display: grid is that flexbox is designed for one-dimensional layouts (rows or columns), while CSS Grid is designed for two-dimensional layouts (rows and columns). </p>
+  <h3>Sub-Property Used to Divide Elements in CSS Grid</h3>
+  <p>To divide elements in CSS Grid, you can use the grid-column and grid-row properties to specify which cells the elements should occupy in the grid. </p>
+  <h3>Unit Used to Fractionally Divide Element Width in CSS Grid</h3>
+  <p>The unit used to fractionally divide the element width in CSS Grid is the "fr" unit. It represents a fraction of the available space in the grid. Alternatively, you can use other units like percentages or pixels.
+  Here's an example of how to use the "fr" unit in CSS Grid: 
+  <code> .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  </code>
+  This code creates a grid with three columns, where the middle column is twice as wide as the others.
+  </p>
+  <h3>Area Property in CSS Grid</h3>
+  <p> The area property in CSS Grid is used to specify which cells an element should occupy in the grid. You can use it to place an element in a specific row and column, or span multiple rows or columns. </p>
+  
+  <h3>Parent and Sub-Properties for CSS Grid Property</h3>
+  <p> CSS Grid is a two-dimensional grid layout system that allows for more advanced and flexible layouts than traditional one-dimensional layouts. To use CSS Grid, you first define a parent element as the grid container and then apply the necessary properties to create the desired layout. Two commonly used sub-properties for the CSS Grid property are `grid-template-columns` and `grid-template-rows`. These properties allow you to define the size and number of columns and rows in the grid layout. </p>
+  <h3>Difference Between display: flex and display: grid</h3>
+  <p> While both `display: flex` and `display: grid` are layout systems in CSS, they have different use cases. Flexbox is typically used for one-dimensional layouts, such as arranging items along a single row or column. Grid, on the other hand, is designed for two-dimensional layouts, allowing you to create complex grid-based designs. </p>
+  <h3>Sub-Property to Divide Elements in CSS Grid Properties</h3>
+  <p> The `grid-column` and `grid-row` properties are used to specify which rows or columns an element should span in a CSS Grid layout. These properties allow you to divide elements into cells within the grid, controlling their placement and size. </p>
+  <h3>Fractional Unit and Alternatives for CSS Grid Property</h3>
+  <p> In CSS Grid, the fractional unit `fr` is often used to divide the available space in the grid layout. This unit allows you to specify the size of each grid column or row as a fraction of the available space. Other alternatives include using fixed pixel or percentage values for column or row sizes, or using the `auto` keyword to let the grid automatically size the columns or rows based on their content. </p>
+  <h3>Area Property in CSS Grid</h3>
+  <p> In CSS Grid, the `grid-area` property is used to place an item onto the grid by referencing the grid lines or named grid areas. This property allows you to specify both the starting and ending points for an element within the grid, allowing for precise control over its position and size. </p>
+  <h3>Preventing Display of Empty Columns in CSS Grid</h3>
+  <p> The `grid-auto-flow` property is used in CSS Grid to define how items are placed on the grid when there is extra space available. By default, this property is set to `row`, which means items are placed left-to-right and top-to-bottom. Setting `grid-auto-flow` to `column` will place items in columns first, which can prevent the display of empty columns in the grid. </p>
+  
+  
+  <section>
+    <h3>How to Add Google Fonts to Your CSS File</h3>
+    <p>To add Google Fonts to your CSS file, you need to follow these steps:</p>
+    <ol>
+      <li>Go to <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> and browse the font collection to find the font you want to use.</li>
+      <li>Click on the font you want to use, and then click on the "Select This Font" button.</li>
+      <li>Choose the styles and variants you want to use, and then click on the "Embed" button.</li>
+      <li>Copy the code that appears in the "Embed Font" section.</li>
+      <li>In your CSS file, paste the code into the header section. This will include the font into your CSS file.</li>
+      <li>To apply the font to your HTML elements, you need to use the font-family property in your CSS file and set it to the name of the font you selected.</li>
+    </ol>
+    
+    <h3>How to Link Google Fonts to Your HTML File</h3>
+    <p>To link Google Fonts to your HTML file, you need to follow these steps:</p>
+    <ol>
+      <li>Go to <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> and browse the font collection to find the font you want to use.</li>
+      <li>Click on the font you want to use, and then click on the "Select This Font" button.</li>
+      <li>Choose the styles and variants you want to use, and then click on the "Embed" button.</li>
+      <li>Copy the link that appears in the "Embed Font" section.</li>
+      <li>In your HTML file, paste the link into the head section using the link element.</li>
+      <li>To apply the font to your HTML elements, you need to use the font-family property in your CSS file and set it to the name of the font you selected.</li>
+    </ol>
+  </section>
+  
+
 
 </article>
 
